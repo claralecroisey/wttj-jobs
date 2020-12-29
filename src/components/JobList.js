@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import JobCard from "./JobCard";
 import "./JobList.css";
 
 const WTTJ_JOBS_API_URL =
@@ -20,7 +21,7 @@ function JobList() {
       <h1 className="PageTitle">Our offers</h1>
 
       {jobs.map((job, index) => (
-        <div key={index}>{job.name}</div>
+        <JobCard key={index} job={job} />
       ))}
     </div>
   );

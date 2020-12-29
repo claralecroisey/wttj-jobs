@@ -1,0 +1,16 @@
+.JobCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px;
+  background-color: white;
+}
+
+.JobCard:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.JobName {
+  font-weight: bold;
+}
