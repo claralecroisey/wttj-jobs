@@ -1,0 +1,14 @@
+.JobList {
+  width: 70%;
+
+  padding: 24px;
+  margin: 80px auto 20px;
+
+  background: rgb(246, 243, 239);
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 4px;
+}
+
+.PageTitle {
+  text-align: center;
+}
