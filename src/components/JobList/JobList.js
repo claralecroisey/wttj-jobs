@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import JobCard from "./JobCard";
+import JobCard from "../JobCard/JobCard";
 import "./JobList.css";
+import { Text } from "@welcome-ui/text";
 
 const WTTJ_JOBS_API_URL =
   "https://www.welcomekit.co/api/v1/embed?organization_reference=Pg4eV6k";
@@ -18,7 +19,9 @@ function JobList() {
 
   return (
     <div className="JobList">
-      <h1 className="PageTitle">Our offers</h1>
+      <Text className="PageTitle" variant="h1">
+        Our offers
+      </Text>
 
       {jobs.map((job, index) => (
         <JobCard key={index} job={job} />
