@@ -6,9 +6,15 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "@welcome-ui/button": "^2.0.2",
+    "@welcome-ui/core": "^2.8.1",
+    "@xstyled/styled-components": "^1.19.1",
+    "@xstyled/system": "^1.19.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

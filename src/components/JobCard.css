@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
 
-  padding: 16px;
+  padding: 32px;
   background-color: white;
 }
 
@@ -13,4 +13,9 @@
 
 .JobName {
   font-weight: bold;
+  line-height: 150%;
+}
+
+.JobInfos {
+  font-size: 16px;
 }

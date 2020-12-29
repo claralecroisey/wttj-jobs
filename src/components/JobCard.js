@@ -1,4 +1,5 @@
 import "./JobCard.css";
+import { Button } from "@welcome-ui/button";
 
 function JobCard(props) {
   return (
@@ -9,7 +10,7 @@ function JobCard(props) {
           {props.job.contract_type.en} - {props.job.office.name}
         </p>
       </div>
-      <button>See more</button>
+      <Button variant="primary">See more</Button>
     </div>
   );
 }
