@@ -2,12 +2,12 @@ export const WTTJ_THEME_CONFIG = {
   transformers: {},
   colors: {
     primary: {
-      100: "#C6CAFF",
-      200: "#5650EC",
-      500: "#3B35DC",
-      700: "#241DBB",
-      800: "#1C168F",
-      900: "#171379",
+      100: "#FFF8D9",
+      200: "#FFE166",
+      500: "#FFCD00",
+      700: "#E5B800",
+      800: "#735C00",
+      900: "#4C3D00",
     },
     success: {
       100: "#E6FAE7",
@@ -32,28 +32,28 @@ export const WTTJ_THEME_CONFIG = {
       500: "#1B57B2",
     },
     light: {
-      100: "#7D7D7D",
-      200: "#969696",
-      500: "#AFAFAF",
-      700: "#C8C8C8",
-      800: "#E1E1E1",
+      100: "#737373",
+      200: "#8C8C8C",
+      500: "#999999",
+      700: "#B3B3B3",
+      800: "#E5E5E5",
       900: "#FFFFFF",
     },
     dark: {
-      100: "#737373",
+      100: "#666666",
       200: "#4C4C4C",
-      500: "#252525",
-      700: "#1B1B1B",
-      800: "#111111",
+      500: "#2B2B2B",
+      700: "#1A1A1A",
+      800: "#151515",
       900: "#000000",
     },
     nude: {
-      100: "#F1F1F0",
-      200: "#E8E8E6",
-      500: "#C3C3BE",
-      700: "#818177",
-      800: "#585851",
-      900: "#444441",
+      100: "#F6F3EF",
+      200: "#EFEAE4",
+      500: "#D6D2CC",
+      700: "#8F8C88",
+      800: "#6B6966",
+      900: "#474543",
     },
     sub: {
       1: "#3FD1C1",
@@ -63,7 +63,7 @@ export const WTTJ_THEME_CONFIG = {
       5: "#965FE6",
       6: "#F4CF70",
     },
-    underline: "#C6CAFF",
+    underline: "#FFF8D9",
     overlay: "rgba(0, 0, 0, 0.55)",
   },
   fontFaces: {
@@ -245,15 +245,15 @@ export const WTTJ_THEME_CONFIG = {
     md: "3px 4px 10px 0 rgba(0,0,0,0.07)",
   },
   selection: {
-    backgroundColor: "#3B35DC",
+    backgroundColor: "#FFCD00",
     color: "#FFFFFF",
   },
   underline: {
     default: [
       "\n      background-image: linear-gradient(0deg, ",
-      "#C6CAFF",
+      "#FFF8D9",
       ", ",
-      "#C6CAFF",
+      "#FFF8D9",
       " 100%);\n      background-repeat: no-repeat;\n      background-size: 100% 50%;\n      background-position-y: calc(200% - 1px);\n      transition: background-position-y 0.25s;\n    ",
     ],
     hover: ["\n      opacity: 1;\n      background-position-y: 100%;\n    "],
@@ -263,7 +263,7 @@ export const WTTJ_THEME_CONFIG = {
     borderRadius: "6px",
     borderStyle: "solid",
     borderWidth: "1px",
-    borderColor: "#E1E1E1",
+    borderColor: "#E5E5E5",
   },
   textsFontWeights: {
     h0: "600",
@@ -357,8 +357,8 @@ export const WTTJ_THEME_CONFIG = {
       fontWeight: "600",
       letterSpacing: 0,
       borderRadius: "6px",
-      backgroundColor: "#3B35DC",
-      borderColor: "#3B35DC",
+      backgroundColor: "#FFCD00",
+      borderColor: "#FFCD00",
     },
     secondary: {
       color: "#FFFFFF",
@@ -434,12 +434,12 @@ export const WTTJ_THEME_CONFIG = {
     },
     hover: {
       primary: {
-        backgroundColor: "#5650EC",
-        borderColor: "#5650EC",
+        backgroundColor: "#FFE166",
+        borderColor: "#FFE166",
       },
       secondary: {
-        backgroundColor: "#252525",
-        borderColor: "#252525",
+        backgroundColor: "#2B2B2B",
+        borderColor: "#2B2B2B",
       },
       tertiary: {
         backgroundColor: "rgba(0, 0, 0, 0.1)",
@@ -464,8 +464,8 @@ export const WTTJ_THEME_CONFIG = {
         borderColor: "#94080A",
       },
       quaternary: {
-        backgroundColor: "#E1E1E1",
-        borderColor: "#E1E1E1",
+        backgroundColor: "#E5E5E5",
+        borderColor: "#E5E5E5",
       },
     },
     focus: {
@@ -499,8 +499,8 @@ export const WTTJ_THEME_CONFIG = {
     },
     active: {
       primary: {
-        backgroundColor: "#241DBB",
-        borderColor: "#241DBB",
+        backgroundColor: "#E5B800",
+        borderColor: "#E5B800",
       },
       secondary: {
         backgroundColor: "#4C4C4C",
@@ -529,18 +529,18 @@ export const WTTJ_THEME_CONFIG = {
         borderColor: "#94080A",
       },
       quaternary: {
-        backgroundColor: "#C8C8C8",
-        borderColor: "#C8C8C8",
+        backgroundColor: "#B3B3B3",
+        borderColor: "#B3B3B3",
       },
     },
     disabled: {
-      color: "#818177",
+      color: "#8F8C88",
       fontSize: "0.75rem",
       fontWeight: "600",
       letterSpacing: 0,
       borderRadius: "6px",
-      backgroundColor: "#C3C3BE",
-      borderColor: "#C3C3BE",
+      backgroundColor: "#D6D2CC",
+      borderColor: "#D6D2CC",
       "&:focus": {
         boxShadow: "0 0 0 3px rgba(195, 195, 190, 0.5)",
       },
@@ -582,7 +582,7 @@ export const WTTJ_THEME_CONFIG = {
     item: {
       default: {
         textDecoration: "none",
-        color: "#7D7D7D",
+        color: "#737373",
       },
       hover: {
         color: "#000000",
@@ -593,7 +593,7 @@ export const WTTJ_THEME_CONFIG = {
     },
     separator: {
       padding: "0 0.625rem",
-      color: "#7D7D7D",
+      color: "#737373",
     },
   },
   toasts: {
@@ -612,8 +612,8 @@ export const WTTJ_THEME_CONFIG = {
         fontWeight: "400",
         fontSize: "0.875rem",
         lineHeight: 1.15,
-        backgroundColor: "#C8C8C8",
-        borderColor: "#E8E8E6",
+        backgroundColor: "#B3B3B3",
+        borderColor: "#EFEAE4",
         borderWidth: "1px",
         borderStyle: "solid",
         borderRadius: "6px",
@@ -660,12 +660,12 @@ export const WTTJ_THEME_CONFIG = {
     },
     active: {
       color: "#FFFFFF",
-      backgroundColor: "#3B35DC",
-      borderColor: "#3B35DC",
+      backgroundColor: "#FFCD00",
+      borderColor: "#FFCD00",
       "&:hover, &:focus": {
         color: "#FFFFFF",
-        borderColor: "#3B35DC",
-        backgroundColor: "#3B35DC",
+        borderColor: "#FFCD00",
+        backgroundColor: "#FFCD00",
       },
       "&:focus": {
         boxShadow: "0 0 0 3px rgba(59, 53, 220, 0.5)",
@@ -685,15 +685,15 @@ export const WTTJ_THEME_CONFIG = {
   tabs: {
     tabsBorder: {
       horizontal: {
-        boxShadow: "inset 0 -1px 0 #E1E1E1",
+        boxShadow: "inset 0 -1px 0 #E5E5E5",
       },
       vertical: {
-        boxShadow: "inset -1px 0 0 #E1E1E1",
+        boxShadow: "inset -1px 0 0 #E5E5E5",
       },
     },
     item: {
       default: {
-        color: "#7D7D7D",
+        color: "#737373",
         fontWeight: "500",
         fontSize: "1rem",
         textDecoration: "none",
@@ -705,7 +705,7 @@ export const WTTJ_THEME_CONFIG = {
         color: "#000000",
       },
       disabled: {
-        color: "#C8C8C8",
+        color: "#B3B3B3",
       },
     },
     panel: {
@@ -723,11 +723,11 @@ export const WTTJ_THEME_CONFIG = {
     },
     activeBar: {
       horizontal: {
-        background: "#3B35DC",
+        background: "#FFCD00",
         height: "3px",
       },
       vertical: {
-        background: "#3B35DC",
+        background: "#FFCD00",
         width: "3px",
       },
     },
@@ -776,8 +776,8 @@ export const WTTJ_THEME_CONFIG = {
         backgroundColor: "#F4CF70",
       },
       default: {
-        backgroundColor: "#E8E8E6",
-        color: "#7D7D7D",
+        backgroundColor: "#EFEAE4",
+        color: "#737373",
         borderColor: "rgba(0, 0, 0, 0.1)",
         borderWidth: "1px",
         borderStyle: "solid",
@@ -785,8 +785,8 @@ export const WTTJ_THEME_CONFIG = {
       primary: {
         borderWidth: "1px",
         borderStyle: "solid",
-        borderColor: "#3B35DC",
-        backgroundColor: "#3B35DC",
+        borderColor: "#FFCD00",
+        backgroundColor: "#FFCD00",
         color: "#FFFFFF",
       },
       secondary: {
@@ -797,9 +797,9 @@ export const WTTJ_THEME_CONFIG = {
         borderStyle: "solid",
       },
       dark: {
-        backgroundColor: "#1B1B1B",
-        color: "#C8C8C8",
-        borderColor: "#252525",
+        backgroundColor: "#1A1A1A",
+        color: "#B3B3B3",
+        borderColor: "#2B2B2B",
         borderWidth: "1px",
         borderStyle: "solid",
       },
@@ -957,23 +957,23 @@ export const WTTJ_THEME_CONFIG = {
   },
   tooltips: {
     maxWidth: "12.5rem",
-    backgroundColor: "#1B1B1B",
-    color: "#C8C8C8",
-    border: "1px solid #252525",
+    backgroundColor: "#1A1A1A",
+    color: "#B3B3B3",
+    border: "1px solid #2B2B2B",
     padding: "0.375rem 0.625rem",
     fontSize: "0.75rem",
     borderRadius: "6px",
   },
   links: {
     default: {
-      color: "#252525",
+      color: "#2B2B2B",
       fontWeight: "500",
       transition: "300ms ease",
     },
     primary: {
       default: [
         [
-          "\n        > .wui-text {\n          \n      background-image: linear-gradient(0deg, #C6CAFF, #C6CAFF 100%);\n      background-repeat: no-repeat;\n      background-size: 100% 50%;\n      background-position-y: calc(200% - 1px);",
+          "\n        > .wui-text {\n          \n      background-image: linear-gradient(0deg, #FFF8D9, #FFF8D9 100%);\n      background-repeat: no-repeat;\n      background-size: 100% 50%;\n      background-position-y: calc(200% - 1px);",
           null,
           "\n    ;\n        }\n      ",
         ],
@@ -999,28 +999,28 @@ export const WTTJ_THEME_CONFIG = {
     item: {
       padding: "0.625rem 0.75rem",
       backgroundColor: "transparent",
-      color: "#585851",
+      color: "#6B6966",
       "&:hover": {
-        backgroundColor: "#E8E8E6",
+        backgroundColor: "#EFEAE4",
         color: "#000000",
       },
       "&:focus": {
-        backgroundColor: "#E8E8E6",
+        backgroundColor: "#EFEAE4",
         color: "#000000",
       },
       "&[disabled]": {
         backgroundColor: "transparent",
-        color: "#C3C3BE",
+        color: "#D6D2CC",
         cursor: "not-allowed",
       },
     },
     separator: {
-      backgroundColor: "#E8E8E6",
+      backgroundColor: "#EFEAE4",
     },
   },
   tables: {
     th: {
-      color: "#7D7D7D",
+      color: "#737373",
       fontWeight: "500",
       textAlign: "left",
       borderBottomColor: "#000000",
@@ -1033,7 +1033,7 @@ export const WTTJ_THEME_CONFIG = {
     },
     tr: {
       default: {
-        borderBottomColor: "#E1E1E1",
+        borderBottomColor: "#E5E5E5",
         borderBottomWidth: "1px",
         borderBottomStyle: "solid",
       },
@@ -1077,13 +1077,13 @@ export const WTTJ_THEME_CONFIG = {
       zIndex: 999,
     },
     footer: {
-      borderTopColor: "#E1E1E1",
+      borderTopColor: "#E5E5E5",
       borderTopStyle: "solid",
       borderTopWidth: "1px",
       padding: "0.9375rem 1.5rem",
     },
     title: {
-      borderBottomColor: "#E1E1E1",
+      borderBottomColor: "#E5E5E5",
       borderBottomStyle: "solid",
       borderBottomWidth: "1px",
       padding: "0.9375rem 1.5rem",
@@ -1118,7 +1118,7 @@ export const WTTJ_THEME_CONFIG = {
     padding: "1.25rem",
     wrapper: {
       backgroundColor: "#FFFFFF",
-      border: "1px solid #E1E1E1",
+      border: "1px solid #E5E5E5",
     },
     icon: {
       color: "#000000",
@@ -1137,16 +1137,16 @@ export const WTTJ_THEME_CONFIG = {
     navigation: {
       bullet: {
         active: {
-          backgroundColor: "#3B35DC",
+          backgroundColor: "#FFCD00",
         },
         default: {
-          backgroundColor: "#C3C3BE",
+          backgroundColor: "#D6D2CC",
         },
       },
     },
   },
   labels: {
-    color: "#7D7D7D",
+    color: "#737373",
     fontSize: "0.875rem",
     fontWeight: "500",
   },
@@ -1155,9 +1155,9 @@ export const WTTJ_THEME_CONFIG = {
       fontWeight: "400",
       fontSize: "0.875rem",
       lineHeight: 1.15,
-      backgroundColor: "#111111",
+      backgroundColor: "#151515",
       color: "#FFFFFF",
-      borderColor: "#111111",
+      borderColor: "#151515",
       maxWidth: "43.75rem",
       zIndex: 1,
     },
@@ -1183,7 +1183,7 @@ export const WTTJ_THEME_CONFIG = {
       lineHeight: "1rem",
       fontWeight: "400",
       backgroundColor: "#FFFFFF",
-      borderColor: "#E8E8E6",
+      borderColor: "#EFEAE4",
       borderWidth: "1px",
       borderStyle: "solid",
       outline: "none",
@@ -1211,15 +1211,15 @@ export const WTTJ_THEME_CONFIG = {
       },
     },
     disabled: {
-      backgroundColor: "#C3C3BE",
-      color: "#818177",
+      backgroundColor: "#D6D2CC",
+      color: "#8F8C88",
       cursor: "not-allowed",
     },
     placeholder: {},
     focused: {
       default: {
         boxShadow: "0 0 0 3px rgba(59, 53, 220, 0.5)",
-        borderColor: "#3B35DC",
+        borderColor: "#FFCD00",
       },
       error: {
         boxShadow: "0 0 0 3px rgba(148, 8, 10, 0.5)",
@@ -1242,11 +1242,11 @@ export const WTTJ_THEME_CONFIG = {
         maxHeight: "9.6875rem",
       },
       existing: {
-        color: "#C3C3BE",
+        color: "#D6D2CC",
         cursor: "not-allowed",
       },
       highlighted: {
-        backgroundColor: "#F1F1F0",
+        backgroundColor: "#F6F3EF",
         cursor: "default",
       },
       selectedAndHighlighted: {
@@ -1263,7 +1263,7 @@ export const WTTJ_THEME_CONFIG = {
     },
   },
   hints: {
-    color: "#AFAFAF",
+    color: "#999999",
     fontSize: "0.75rem",
     fontWeight: "400",
   },
@@ -1274,11 +1274,11 @@ export const WTTJ_THEME_CONFIG = {
       flexShrink: 0,
     },
     disabled: {
-      borderColor: "#818177",
+      borderColor: "#8F8C88",
     },
     checked: {
-      backgroundColor: "#3B35DC",
-      borderColor: "#3B35DC",
+      backgroundColor: "#FFCD00",
+      borderColor: "#FFCD00",
     },
   },
   toggles: {
@@ -1288,22 +1288,22 @@ export const WTTJ_THEME_CONFIG = {
         height: "1.125rem",
         borderRadius: "0.5625rem",
         backgroundColor: "#FFFFFF",
-        borderColor: "#E1E1E1",
+        borderColor: "#E5E5E5",
         borderWidth: "1px",
         borderStyle: "solid",
         marginTop: "0.15rem",
         "&:focus": {
-          borderColor: "#3B35DC",
+          borderColor: "#FFCD00",
           boxShadow: "0 0 0 3px rgba(59, 53, 220, 0.5)",
         },
       },
       checked: {
-        backgroundColor: "#3B35DC",
-        borderColor: "#3B35DC",
+        backgroundColor: "#FFCD00",
+        borderColor: "#FFCD00",
       },
       disabled: {
-        borderColor: "#818177",
-        backgroundColor: "#C3C3BE",
+        borderColor: "#8F8C88",
+        backgroundColor: "#D6D2CC",
       },
     },
     after: {
@@ -1311,7 +1311,7 @@ export const WTTJ_THEME_CONFIG = {
         width: 14,
         height: 14,
         backgroundColor: "#FFFFFF",
-        borderColor: "#AFAFAF",
+        borderColor: "#999999",
         borderWidth: "1px",
         borderStyle: "solid",
         borderRadius: "50%",
@@ -1321,8 +1321,8 @@ export const WTTJ_THEME_CONFIG = {
         borderColor: "#FFFFFF",
       },
       disabled: {
-        borderColor: "#818177",
-        backgroundColor: "#818177",
+        borderColor: "#8F8C88",
+        backgroundColor: "#8F8C88",
       },
     },
   },
@@ -1331,7 +1331,7 @@ export const WTTJ_THEME_CONFIG = {
       selected: {
         color: "#FFFFFF",
         fontWeight: "600",
-        backgroundColor: "#3B35DC",
+        backgroundColor: "#FFCD00",
         outline: "none",
       },
       today: {
@@ -1358,8 +1358,8 @@ export const WTTJ_THEME_CONFIG = {
       height: "1.25rem",
     },
     checked: {
-      backgroundColor: "#3B35DC",
-      borderColor: "#3B35DC",
+      backgroundColor: "#FFCD00",
+      borderColor: "#FFCD00",
     },
     withHint: {
       default: {
@@ -1375,15 +1375,15 @@ export const WTTJ_THEME_CONFIG = {
   radioTabs: {
     default: {
       "&:hover": {
-        backgroundColor: "#E8E8E6",
+        backgroundColor: "#EFEAE4",
       },
     },
     checked: {
-      backgroundColor: "#3B35DC",
+      backgroundColor: "#FFCD00",
       color: "#FFFFFF",
-      borderColor: "#3B35DC",
+      borderColor: "#FFCD00",
       "&:hover": {
-        backgroundColor: "#5650EC",
+        backgroundColor: "#FFE166",
       },
     },
   },

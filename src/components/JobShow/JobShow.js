@@ -26,22 +26,25 @@ function JobShow(props) {
         {job.name} - {job.contract_type.en}
       </Modal.Title>
       <Modal.Content>
-        <Text variant="h3" as="h2">
+        <Text variant="h3" marginBottom="16px" as="h2">
           Description
         </Text>
         <Text
           variant="body2"
+          marginBottom="32px"
           dangerouslySetInnerHTML={getHtmlContent(job.description)}
         />
-        <Text variant="h3" as="h2">
+
+        <Text variant="h3" marginBottom="16px" as="h2">
           Recruitment process
         </Text>
         <Text
           variant="body2"
+          marginBottom="32px"
           dangerouslySetInnerHTML={getHtmlContent(job.recruitment_process)}
         />
 
-        <Text variant="h3" as="h2">
+        <Text variant="h3" marginBottom="16px" as="h2">
           Office
         </Text>
         <Text variant="body3">{job.office.address}</Text>
@@ -49,6 +52,7 @@ function JobShow(props) {
         <Text variant="body3">{job.office.city}</Text>
         <Text variant="body3">{job.office.country.en}</Text>
       </Modal.Content>
+
       <Modal.Footer>
         <Box width={1} display="flex" justifyContent="center">
           <a href={getWebsiteUrl(job.websites_urls)}>
