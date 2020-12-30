@@ -6,6 +6,7 @@ import { InputText } from "@welcome-ui/input-text";
 import { Select } from "@welcome-ui/select";
 import { DatePicker } from "@welcome-ui/date-picker";
 import { Box } from "@welcome-ui/box";
+import { DateIcon } from "@welcome-ui/icons.date";
 import {
   CONTRACT_TYPES_EN_OPTIONS,
   GROUP_BY_EN_OPTIONS,
@@ -123,6 +124,7 @@ function JobList() {
             placeholder="Published After"
             maxDate={new Date()}
             value={selectedPublishedAfterDate}
+            icon={<DateIcon color="light.100" />}
             onChange={(event) => setSelectedPublishedAfterDate(event)}
           />
           <Select
