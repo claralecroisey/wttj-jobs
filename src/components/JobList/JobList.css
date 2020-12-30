@@ -13,3 +13,12 @@
   text-align: center;
   margin-bottom: 16px;
 }
+
+.FilterBar {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.FilterBar > div:not(:last-child) {
+  margin-right: 8px;
+}

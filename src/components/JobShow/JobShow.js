@@ -3,6 +3,8 @@ import { Modal } from "@welcome-ui/modal";
 import { Box } from "@welcome-ui/box";
 import { Button } from "@welcome-ui/button";
 
+import "./JobShow.css";
+
 function JobShow(props) {
   const { modal, job } = props;
 
@@ -11,13 +13,41 @@ function JobShow(props) {
     return wttjFrUrl ? wttjFrUrl.url : null;
   };
 
-  const htmlModalContent = { __html: job.description };
+  const getHtmlContent = (content) => ({ __html: content });
 
   return (
-    <Modal {...modal} ariaLabel="Job details">
-      <Modal.Title>{job.name}</Modal.Title>
+    <Modal
+      className="JobShowModal"
+      {...modal}
+      ariaLabel="Job details"
+      size="auto"
+    >
+      <Modal.Title>
+        {job.name} - {job.contract_type.en}
+      </Modal.Title>
       <Modal.Content>
-        <Text variant="body1" dangerouslySetInnerHTML={htmlModalContent} />
+        <Text variant="h3" as="h2">
+          Description
+        </Text>
+        <Text
+          variant="body2"
+          dangerouslySetInnerHTML={getHtmlContent(job.description)}
+        />
+        <Text variant="h3" as="h2">
+          Recruitment process
+        </Text>
+        <Text
+          variant="body2"
+          dangerouslySetInnerHTML={getHtmlContent(job.recruitment_process)}
+        />
+
+        <Text variant="h3" as="h2">
+          Office
+        </Text>
+        <Text variant="body3">{job.office.address}</Text>
+        <Text variant="body3">{job.office.zip_code}</Text>
+        <Text variant="body3">{job.office.city}</Text>
+        <Text variant="body3">{job.office.country.en}</Text>
       </Modal.Content>
       <Modal.Footer>
         <Box width={1} display="flex" justifyContent="center">
