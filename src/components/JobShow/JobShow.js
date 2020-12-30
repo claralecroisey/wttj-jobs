@@ -4,6 +4,7 @@ import { Box } from "@welcome-ui/box";
 import { Button } from "@welcome-ui/button";
 
 import "./JobShow.css";
+import { getHtmlContent } from "../../textFormatter";
 
 function JobShow(props) {
   const { modal, job } = props;
@@ -12,8 +13,6 @@ function JobShow(props) {
     const wttjFrUrl = urls.find((url) => url.website_reference === "wttj_fr");
     return wttjFrUrl ? wttjFrUrl.url : null;
   };
-
-  const getHtmlContent = (content) => ({ __html: content });
 
   return (
     <Modal

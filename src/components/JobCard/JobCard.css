@@ -10,12 +10,3 @@
 .JobCard:not(:last-child) {
   margin-bottom: 16px;
 }
-
-.JobName {
-  font-weight: bold;
-  line-height: 150%;
-}
-
-.JobInfos {
-  font-size: 16px;
-}

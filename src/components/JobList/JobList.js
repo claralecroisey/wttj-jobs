@@ -134,7 +134,7 @@ function JobList() {
         </Box>
 
         {filteredJobs.map((job, index) => (
-          <JobCard key={index} job={job} />
+          <JobCard key={index} job={job} searchTerm={searchTerm} />
         ))}
       </Box>
     </Box>
